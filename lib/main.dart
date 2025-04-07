@@ -20,7 +20,10 @@ class Back extends StatelessWidget {
               "assets/logo.png",
               height: 60,
             ),
-            const Text("MarqDev", style: TextStyle(fontSize: 25),),
+            const Text(
+              "MarqDev",
+              style: TextStyle(fontSize: 25),
+            ),
           ],
         )),
         body: const Column(children: [
@@ -30,6 +33,10 @@ class Back extends StatelessWidget {
               style: TextStyle(fontSize: 50),
             ),
           ),
+          SizedBox(
+            height: 10,
+            child: Text("Second Line Test for GitHUb"),
+          )
         ]),
       ),
     );
