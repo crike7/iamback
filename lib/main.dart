@@ -26,17 +26,18 @@ class Back extends StatelessWidget {
             ),
           ],
         )),
-        body: const Column(children: [
-          Center(
+        body:  Column(children: [
+          const Center(
             child: Text(
               "THIS IS A TEST",
               style: TextStyle(fontSize: 50),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
             child: Text("Second Line Test for GitHUb"),
-          )
+          ),
+           Container(width:50 ,child: const  Text("FRIENDS"))
         ]),
       ),
     );
